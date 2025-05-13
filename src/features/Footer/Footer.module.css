@@ -1,0 +1,159 @@
+.footer {
+  background: var(--color-main);
+  color: var(--color-bg);
+  padding: 48px 20px 20px 20px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto 24px auto;
+  gap: 32px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+.company {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: var(--color-accent);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.contactLink {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.contactLink:hover {
+  color: var(--color-accent);
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.socials a {
+  color: var(--color-bg);
+  transition: color 0.2s;
+}
+
+.socials a:hover {
+  color: var(--color-accent);
+}
+
+.bottom {
+  border-top: 1px solid rgba(253, 250, 235, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  font-size: 0.95rem;
+  color: var(--color-bg);
+  gap: 12px;
+}
+
+.policy {
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-left: 16px;
+  font-size: 0.95rem;
+}
+
+.policy:hover {
+  text-decoration: underline;
+}
+
+/* --- Мобильная адаптация --- */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+  .contacts {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 32px 10px 12px 10px;
+  }
+  .container {
+    gap: 20px;
+  }
+  .brand {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .contacts {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .socials {
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding-top: 10px;
+    font-size: 0.92rem;
+  }
+  .policy {
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}

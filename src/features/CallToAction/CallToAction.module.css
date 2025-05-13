@@ -1,0 +1,40 @@
+.cta {
+  background: var(--color-accent);
+  color: var(--color-bg);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 40px 0;
+}
+
+.cta h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: var(--color-bg);
+}
+
+.cta p {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.15rem;
+  margin-bottom: 32px;
+  color: var(--color-bg);
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 14px 36px;
+  background: var(--color-main);
+  color: var(--color-bg);
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.ctaButton:hover {
+  background: #253125;
+}

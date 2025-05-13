@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background: var(--color-main);
+  color: var(--color-bg);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 24px;
+}
+
+.ctaButton {
+  margin-top: 32px;
+  padding: 14px 32px;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.ctaButton:hover {
+  background: #a8822a;
+}
