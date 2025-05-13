@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/laflaretapee/rudat.git/static/css/main.77aeb2ac.css",
+    "main.js": "/laflaretapee/rudat.git/static/js/main.104cfba1.js",
+    "static/media/logo.svg": "/laflaretapee/rudat.git/static/media/logo.9c485868647b292367b5b2226e93a715.svg",
+    "index.html": "/laflaretapee/rudat.git/index.html",
+    "main.77aeb2ac.css.map": "/laflaretapee/rudat.git/static/css/main.77aeb2ac.css.map",
+    "main.104cfba1.js.map": "/laflaretapee/rudat.git/static/js/main.104cfba1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77aeb2ac.css",
+    "static/js/main.104cfba1.js"
+  ]
+}
