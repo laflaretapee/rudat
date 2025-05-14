@@ -12,11 +12,8 @@
   color: var(--color-main);
 }
 
-.list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
+.swiper {
+  padding-bottom: 40px;
 }
 
 .card {
@@ -26,16 +23,17 @@
   padding: 32px 24px;
   max-width: 340px;
   min-width: 240px;
-  flex: 1 1 240px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 }
 
 .text {
   font-family: 'Inter', Arial, sans-serif;
   font-size: 1.05rem;
-  color: var(--color-text);
+  color: var(--color-text, #555);
   margin-bottom: 20px;
 }
 
@@ -48,21 +46,71 @@
 .name {
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--color-accent, #BD973E);
   margin-bottom: 4px;
 }
 
 .position {
   font-size: 0.95rem;
-  color: var(--color-main);
+  color: var(--color-main, #3B493B);
 }
 
-/* Если используете фото клиентов:
-.photo {
-  width: 60px;
-  height: 60px;
+/* Swiper navigation */
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--color-accent, #BD973E);
+  background: rgba(189,151,62,0.08);
   border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 16px;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-*/
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: var(--color-accent, #BD973E);
+  color: #fff;
+}
+
+/* Swiper pagination */
+.swiper-pagination-bullet {
+  background: var(--color-accent, #BD973E);
+  opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    max-width: 90vw;
+  }
+}
+@media (max-width: 700px) {
+  .card {
+    max-width: 98vw;
+    min-width: 0;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3B493B !important; /* темно-зеленый */
+  background: #fff !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  box-shadow: 0 2px 8px rgba(59, 73, 59, 0.10) !important;
+  border: 1.5px solid #3B493B !important;
+  font-size: 1.8rem !important;
+  opacity: 0.95 !important;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #3B493B !important;
+  color: #fff !important;
+  box-shadow: 0 6px 16px rgba(59, 73, 59, 0.16) !important;
+  opacity: 1 !important;
+}

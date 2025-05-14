@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3B493B !important;
+  background: #fff !important;
+  border-radius: 50% !important;
+  width: 44px !important;
+  height: 44px !important;
+  box-shadow: 0 2px 8px rgba(59, 73, 59, 0.10) !important;
+  border: 1.5px solid #3B493B !important;
+  font-size: 1.8rem !important;
+  opacity: 0.95 !important;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #3B493B !important;
+  color: #fff !important;
+  box-shadow: 0 6px 16px rgba(59, 73, 59, 0.16) !important;
+  opacity: 1 !important;
+}

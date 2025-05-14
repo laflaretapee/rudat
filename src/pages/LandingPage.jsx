@@ -8,6 +8,7 @@ import CallToAction from '../features/CallToAction/CallToAction';
 import ContactForm from '../features/ContactForm/ContactForm';
 import Footer from '../features/Footer/Footer';
 import Header from '../features/Header/Header';
+import ServiceList from '../features/Service/ServiceList';
 
 const LandingPage = () => (
   <>
@@ -16,6 +17,7 @@ const LandingPage = () => (
     <About />
     <Advantages />
     <Cases />
+    <ServiceList />
     <Testimonials />
     <CallToAction />
     <ContactForm />
