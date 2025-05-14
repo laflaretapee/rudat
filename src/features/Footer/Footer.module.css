@@ -23,8 +23,8 @@
 }
 
 .logo {
-  width: 48px;
-  height: 48px;
+  width: 256px;
+  height: 120px;
 }
 
 .company {
@@ -156,4 +156,33 @@
     margin-left: 0;
     margin-top: 4px;
   }
+}
+
+.devSignature {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 1rem;
+  color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.devLink {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.devLogo {
+  height: 28px;
+  margin-left: 6px;
+  vertical-align: middle;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
+  transition: transform 0.2s;
+}
+
+.devLink:hover .devLogo {
+  transform: scale(1.08) rotate(-6deg);
 }

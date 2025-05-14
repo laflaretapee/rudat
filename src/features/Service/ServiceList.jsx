@@ -21,19 +21,19 @@ const services = [
     description: 'Монтаж/замена проводки, установка розеток, выключателей, подключение приборов.',
   },
   {
-    icon: 'https://img.icons8.com/fluency/64/paint-roller.png',
+    icon: 'https://img.icons8.com/?size=100&id=12951&format=png&color=000000',
     price: 'от 100 руб./кв. м',
     title: 'Малярные работы',
     description: 'Подготовка и покраска стен, потолков, декоративные покрытия.',
   },
   {
-    icon: 'https://img.icons8.com/fluency/64/tiles.png',
+    icon: 'https://img.icons8.com/?size=100&id=sjK92z1ysrXY&format=png&color=000000',
     price: 'от 500 руб./кв. м',
     title: 'Укладка плитки',
     description: 'Плиточные работы в санузлах, кухнях, коридорах, декоративная плитка.',
   },
   {
-    icon: 'https://img.icons8.com/fluency/64/water-tap.png',
+    icon: 'https://img.icons8.com/?size=100&id=t42IfMQGi6PL&format=png&color=000000',
     price: 'от 500 руб.',
     title: 'Сантехнические работы',
     description: 'Монтаж/замена труб, установка сантехники, подключение оборудования.',
@@ -57,7 +57,7 @@ const Services = () => (
     <div className={styles.bottomCta}>
       <p>Не нашли нужную услугу? Свяжитесь с нами для индивидуальной консультации.</p>
       <a
-        href="https://wa.me/79273215687?text=Здравствуйте!%20Я%20хочу%20получить%20индивидуальную%20консультацию."
+        href="https://wa.me/79373282412?text=Здравствуйте!%20Я%20хочу%20получить%20индивидуальную%20консультацию."
         className={styles.consultBtn}
         target="_blank"
         rel="noopener noreferrer"
